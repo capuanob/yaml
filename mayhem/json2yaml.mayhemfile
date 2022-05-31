@@ -1,0 +1,8 @@
+image: ghcr.io/capuanob/yaml-fuzz:latest
+project: yaml
+target: json2yaml-fuzz
+tests:
+    - file://corpus/json
+
+cmds:
+  - cmd: /json2yaml

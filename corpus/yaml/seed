@@ -1,0 +1,1 @@
+invoice: 34843\ndate   : !!str 2001-01-23\nbill-to: &id001\n    given  : Chris\n    family : Dumars\n    address:\n        lines: |\n            458 Walkman Dr.\n            Suite #292\n
