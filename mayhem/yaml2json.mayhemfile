@@ -1,7 +1,6 @@
-image: ghcr.io/capuanob/yaml-fuzz:latest
 project: yaml
 target: yaml2json-fuzz
-tests:
+testsuite:
     - file://corpus/yaml
 
 cmds:
